@@ -5,6 +5,8 @@
            review="review.source.android.com" />
   <remote name="github-https" 
 	  fetch="https://github.com/" />
+  <remote name="github" 
+          fetch="git://github.com/" />
   <default revision="gingerbread"
            remote="korg" />
 
@@ -20,6 +22,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/htc/common" name="device/htc/common" />
+  <project path="device/htc/bravo" name="drether/android_device_htc_bravo" remote="github" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
